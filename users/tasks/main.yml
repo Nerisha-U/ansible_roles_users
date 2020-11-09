@@ -1,0 +1,7 @@
+---
+- name: create a user
+  user:
+    name: tomcat
+    group: tomcat
+    password: "{{ user_pass }}"
+    shell: "/bin/bash"

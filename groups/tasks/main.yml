@@ -1,0 +1,6 @@
+---
+- name: create group "tomcat" to webserver
+  group:
+    name: tomcat
+    state: present
+    gid: 2021

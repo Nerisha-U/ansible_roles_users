@@ -1,0 +1,6 @@
+---
+- name:  Installing git on webservers
+  yum:
+    name:  git
+    state:  present
+    
